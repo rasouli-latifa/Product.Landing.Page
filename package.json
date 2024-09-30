@@ -1,0 +1,12 @@
+{
+  "name": "product.landing.page",
+  "version": "1.0.0",
+  "description": "This is a product landing page for Beauty Brand.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEAUTY BRAND</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <header id="header">
+        <img id="header-img" src="https://example.com/logo.png" alt="Makeup Cosmetics Logo">
+        <nav id="nav-bar">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#products" class="nav-link">Products</a>
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <img src="https://example.com/cosmetics-banner.jpg" alt="Cosmetics Banner" class="hero-image">
+        <div class="hero-text">
+            <h1>Welcome to Beauty Brand</h1>
+            <p>Your beauty, naturally enhanced</p>
+        </div>
+    </section>
+
+    <main>
+
+        <section id="about">
+            <h2>About Beauty Brand</h2>
+            <p>At Beauty Brand, we are committed to providing eco-friendly, cruelty-free, and high-quality cosmetics. Our products are designed for all skin types, made with natural ingredients to ensure a flawless, radiant look.</p>
+        </section>
+
+        <section id="products">
+            <h2>Our Products</h2>
+            <p>We offer a range of beauty products, including foundation, lipsticks, eyeshadow palettes, and more. Watch the video below to see our products in action.</p>
+            <iframe id="video" src="https://youtu.be/V26X_dIy37g?si=aY2OXcKpi5bhzvo-" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+
+        <!-- Features Section (New) -->
+        <section id="features">
+            <h2>Our Best-Selling Products</h2>
+            <div class="features-container">
+                <div class="feature-item">
+                    <img src="https://example.com/foundation.jpg" alt="Foundation" class="feature-img">
+                    <h3>Flawless Foundation</h3>
+                    <p>Lightweight, full coverage foundation that lasts all day.</p>
+                    <p>Price: $35.99</p>
+                </div>
+                <div class="feature-item">
+                    <img src="https://example.com/lipstick.jpg" alt="Lipstick" class="feature-img">
+                    <h3>Matte Lipstick</h3>
+                    <p>Bold colors with a smooth, long-lasting finish.</p>
+                    <p>Price: $19.99</p>
+                </div>
+                <div class="feature-item">
+                    <img src="https://example.com/eyeshadow.jpg" alt="Eyeshadow" class="feature-img">
+                    <h3>Vibrant Eyeshadow Palette</h3>
+                    <p>A variety of shades to match your mood.</p>
+                    <p>Price: $24.99</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Subscribe for Updates</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <input type="submit" id="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Beauty Brand. All rights reserved.</p>
+    </footer>
+</body>
+</html>
